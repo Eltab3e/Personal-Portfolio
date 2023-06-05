@@ -1,38 +1,44 @@
 import {
-  mobile,
-  backend,
-  creator,
-  web,
-  javascript,
-  typescript,
+  icon1,
+  icon2,
+  icon3,
+  icon4,
   html,
   css,
+  javascript,
   reactjs,
+  next,
   redux,
+  sass,
   tailwind,
-  nodejs,
-  mongodb,
-  git,
   figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
+  githublogo,
+  firebase,
   threejs,
+  git,
+  jest,
+  nodejs,
+  cs50,
+  udacity,
+  astronime,
+  gpt3,
+  realtor,
+  natours,
+  bankist,
 } from '../assets';
 
-export const navLinks = [
+const navLinks = [
   {
     id: 'about',
     title: 'About',
   },
   {
-    id: 'work',
-    title: 'Work',
+    id: 'projects',
+    title: 'Projects',
+  },
+  {
+    id: 'path',
+    title: 'Path',
   },
   {
     id: 'contact',
@@ -43,19 +49,19 @@ export const navLinks = [
 const services = [
   {
     title: 'Web Developer',
-    icon: web,
+    icon: icon1,
   },
   {
-    title: 'React Native Developer',
-    icon: mobile,
-  },
-  {
-    title: 'Backend Developer',
-    icon: backend,
+    title: 'Responsive Design',
+    icon: icon2,
   },
   {
     title: 'Content Creator',
-    icon: creator,
+    icon: icon3,
+  },
+  {
+    title: 'UI / UX',
+    icon: icon4,
   },
 ];
 
@@ -73,28 +79,36 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: 'TypeScript',
-    icon: typescript,
-  },
-  {
     name: 'React JS',
     icon: reactjs,
+  },
+  {
+    name: 'Next',
+    icon: next,
   },
   {
     name: 'Redux Toolkit',
     icon: redux,
   },
   {
+    name: 'SASS',
+    icon: sass,
+  },
+  {
     name: 'Tailwind CSS',
     icon: tailwind,
   },
   {
-    name: 'Node JS',
-    icon: nodejs,
+    name: 'figma',
+    icon: figma,
   },
   {
-    name: 'MongoDB',
-    icon: mongodb,
+    name: 'Github',
+    icon: githublogo,
+  },
+  {
+    name: 'Firebase',
+    icon: firebase,
   },
   {
     name: 'Three JS',
@@ -105,134 +119,176 @@ const technologies = [
     icon: git,
   },
   {
-    name: 'figma',
-    icon: figma,
+    name: 'Jest',
+    icon: jest,
   },
   {
-    name: 'docker',
-    icon: docker,
+    name: 'Node JS',
+    icon: nodejs,
   },
 ];
 
-const experiences = [
+const path = [
   {
-    title: 'React.js Developer',
-    company_name: 'Starbucks',
-    icon: starbucks,
-    iconBg: '#383E56',
-    date: 'March 2020 - April 2021',
-    points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.',
-    ],
-  },
-  {
-    title: 'React Native Developer',
-    company_name: 'Tesla',
-    icon: tesla,
+    title: 'CS50: Introduction to Computer Science',
+    company_name: 'edX',
+    icon: cs50,
     iconBg: '#E6DEDD',
-    date: 'Jan 2021 - Feb 2022',
+    date: 'March 2022 - May 2022',
     points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.',
+      'Acquired a broad and comprehensive understanding of computer science and programming.',
+      'Developed the ability to think algorithmically and efficiently solve programming problems.',
+      'Explored and studied concepts such as abstraction, algorithms, data structures, encapsulation, resource management, security, software engineering, and web development.',
+      'Gained familiarity with various programming languages, including C, Python, SQL, JavaScript, as well as CSS and HTML.',
     ],
   },
   {
-    title: 'Web Developer',
-    company_name: 'Shopify',
-    icon: shopify,
+    title: 'Front End Web Developer Nanodegree Program',
+    company_name: 'Udacity',
+    icon: udacity,
     iconBg: '#383E56',
-    date: 'Jan 2022 - Jan 2023',
+    date: 'May 2022 - Sept 2022',
     points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.',
+      'Explored a variety of JavaScript design patterns and developed proficiency in utilizing popular developer tools, testing suites, and frameworks.',
+      'Showcased and honed my skills through engaging in-class projects.',
+      'Received expert evaluations on my project submissions, along with valuable feedback aimed at propelling my progress through the program successfully.',
+      'Engaged in regular communication with a mentor, who offered guidance, support, addressed queries, and directed me to valuable resources along the way.',
     ],
   },
   {
-    title: 'Full stack Developer',
-    company_name: 'Meta',
-    icon: meta,
-    iconBg: '#E6DEDD',
-    date: 'Jan 2023 - Present',
+    title: 'ReactJS',
+    company_name: 'Udemy',
+    icon: reactjs,
+    iconBg: '#383E56',
+    date: 'Sept 2022 - Feb 2023',
     points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.',
+      'Successfully developed robust and high-performance web applications that deliver exceptional user experiences with their speed, responsiveness, and user-friendly interfaces.',
+      'Mastered React functional components, implemented optimized file and folder structures, and adhered to the CSS BEM model for efficient styling and maintainability.',
+      'Acquired proficiency in utilizing React hooks for state management, as well as fetching data from APIs and effectively consuming that data within the application.',
+      'Gained expertise in utilizing Redux and Redux Toolkit for advanced state management, implementing authentication features, writing unit tests, and incorporating advanced animations to enhance the visual appeal and interactivity of the web applications.',
+    ],
+  },
+  {
+    title: 'Next.js',
+    company_name: 'Udemy',
+    icon: next,
+    iconBg: '#E6DEDD',
+    date: 'Feb 2023 - Present',
+    points: [
+      'Acquired a comprehensive understanding of essential Next.js features, including pre-rendering techniques, server-side rendering (SSR), efficient data fetching, file-based routing, and authentication mechanisms.',
+      'Developed proficiency in building both client-side and full-stack React.js applications using Next.js, leveraging its powerful capabilities and seamless integration with React.',
+      'Applied theoretical knowledge gained through hands-on experience by building real projects, allowing me to solidify my skills and effectively demonstrate my understanding of Next.js concepts.',
+      'Implemented various forms of page pre-rendering, including server-side rendering and static site generation. Additionally, incorporated data fetching and pre-fetching techniques to enhance the performance and interactivity of my applications.',
     ],
   },
 ];
 
 const projects = [
   {
-    name: 'Car Rent',
+    name: 'Astronime',
     description:
-      'Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.',
+      'Embark on a cosmic journey through the captivating world of anime with Astronime. Your ultimate celestial hub for the latest news, reviews, and upcoming releases.',
     tags: [
       {
         name: 'react',
         color: 'blue-text-gradient',
       },
       {
-        name: 'mongodb',
+        name: 'css',
         color: 'green-text-gradient',
       },
       {
-        name: 'tailwind',
+        name: 'rest-api',
         color: 'pink-text-gradient',
       },
     ],
-    image: carrent,
-    source_code_link: 'https://github.com/',
+    image: astronime,
+    source_code_link: 'https://github.com/Eltab3e/Astronime',
   },
   {
-    name: 'Job IT',
+    name: 'GPT-3',
     description:
-      'Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.',
+      'Welcome to the world of AI, your gateway to a world shaped by the brilliance of AI technology. Dive into the realm of cutting-edge technologies like Chat GPT-3.',
     tags: [
       {
         name: 'react',
         color: 'blue-text-gradient',
       },
       {
-        name: 'restapi',
+        name: 'css',
         color: 'green-text-gradient',
       },
       {
-        name: 'scss',
+        name: 'figma',
         color: 'pink-text-gradient',
       },
     ],
-    image: jobit,
-    source_code_link: 'https://github.com/',
+    image: gpt3,
+    source_code_link: 'https://github.com/Eltab3e/GPT-3',
   },
   {
-    name: 'Trip Guide',
+    name: 'Realtor',
     description:
-      'A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.',
+      'Step into a world of opulence with Realtor, your ultimate destination for exquisite properties in Dubai. Whether you seek to rent or own a luxurious home, We got you.',
     tags: [
       {
         name: 'nextjs',
         color: 'blue-text-gradient',
       },
       {
-        name: 'supabase',
+        name: 'rest-api',
         color: 'green-text-gradient',
       },
       {
-        name: 'css',
+        name: 'chakura-ui',
         color: 'pink-text-gradient',
       },
     ],
-    image: tripguide,
-    source_code_link: 'https://github.com/',
+    image: realtor,
+    source_code_link: 'https://github.com/Eltab3e/Realtor',
+  },
+  {
+    name: 'Bankist',
+    description:
+      'With Bankist, take control of your finances and unlock a world of limitless possibilities. Join us today and embark on a seamless banking experience like never before!',
+    tags: [
+      {
+        name: 'html',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'css',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'javascript',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: bankist,
+    source_code_link: 'https://github.com/Eltab3e/Bankist',
+  },
+  {
+    name: 'Natours',
+    description:
+      'Discover the untamed world with Natours, your gateway to exhilarating experiences. Our captivating tours website is designed exclusively for adventure seekers like you.',
+    tags: [
+      {
+        name: 'html',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'css',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'sass',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: natours,
+    source_code_link: 'https://github.com/Eltab3e/Natours',
   },
 ];
 
-export { services, technologies, experiences, projects };
+export { navLinks, services, technologies, path, projects };

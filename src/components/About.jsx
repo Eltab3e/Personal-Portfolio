@@ -47,10 +47,12 @@ const About = () => {
         variants={fadeIn('', '', 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        Enthusiastic and motivated self-taught Front-End developer, passionate
-        about modern technologies. I enjoy working with React, Next, and
-        ThreeJS, finding simple solutions to complex problems. Let's create a
-        website that sets you apart from the rest.
+        I'm an Enthusiastic and motivated self-taught frontend developer, passionate about exploring and utilizing modern technologies to create
+        exceptional digital experiences. My expertise lies in working with
+        popular frameworks like React, Next.js, and Three.js, allowing me to
+        craft visually stunning and interactive websites. I thrive on the
+        challenge of solving complex problems with elegant and simplified
+        solutions.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
